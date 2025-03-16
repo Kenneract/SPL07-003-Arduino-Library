@@ -298,7 +298,7 @@ uint8_t SPL07_003::getInterruptStatus() {
   uint8_t intr = _regReadByte(SPL07_REG_INT_STS);
 
   // Mask out known bits (7:3 are reserved)
-  return (intr & 0x00000111);
+  return (intr & 0b00000111);
 }//getInterruptStatus()
 
 
@@ -425,6 +425,9 @@ bool SPL07_003::begin(uint8_t addr, TwoWire *wire, uint8_t id) {
   // Store parameter info
   _i2cAddr = addr;
   _i2cWire = wire;
+
+  // Allow time for hardware init (takes 12ms max)
+  delay(12);
   
   // Attempt to connect + read ID
   if (_regReadByte(SPL07_REG_ID) != id) {
