@@ -18,6 +18,7 @@
 // Create SPL07-003 sensor instance
 SPL07_003 spl;
 
+//HardwareSerial SerialOut(PA10, PA9); //for STM32F103C8Tx
 
 // Runs at startup
 void setup() {
