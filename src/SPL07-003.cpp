@@ -4,7 +4,7 @@
 // Updated: Mar.15.2025, V1.0.0
 // Purpose: SPL07-003 Pressure+Temperature Sensor Arduino Library
 
-#include "SPL07_003.h"
+#include "SPL07-003.h"
 
 
 

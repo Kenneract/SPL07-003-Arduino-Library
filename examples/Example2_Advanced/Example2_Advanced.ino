@@ -9,7 +9,7 @@
  */
 
 #include <Wire.h>
-#include "SPL07_003.h"
+#include "SPL07-003.h"
 
 // Define SPL07-006 I2C address
 //#define SPL07_ADDR SPL07_ADDR_DEF // Default I2C address (SDO=high)
