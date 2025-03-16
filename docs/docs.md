@@ -25,19 +25,18 @@ Where the $Rate_{(pres)}$ and $Rate_{(temp)}$ are the measurement rates (`SPL07_
 |`SPL07_64SAMPLES`| 104.4ms | 104.4ms* |
 |`SPL07_128SAMPLES`| 206.8ms | 206.8ms* |
 
-\*<sub><sup>*Temperature measurement time is only specified for single-sample mode in the datasheet, but is assumed to be similar to that of the pressure sensor for other oversampling rates*</sup></sub>
-
+<sup>\**Temperature measurement time is only specified for single-sample mode in the datasheet, but is assumed to be similar to that of the pressure sensor for other oversampling rates*</sup>
 
 
 Below are some example settings with their associated cycle times:
 
-| Use Case |  Pres Config |  Temp Config | Cycle Time |
+| Use Case |  Pressure Config |  Temperature Config | Cycle Time |
 | --- | --- | --- | --- |
 | Low power | `SPL07_1HZ`, `SPL07_2SAMPLES` | `SPL07_1HZ`, `SPL07_1SAMPLE` | ~8.8ms |
 | Standard precision | `SPL07_2HZ`, `SPL07_16SAMPLES` | `SPL07_1HZ`, `SPL07_1SAMPLE` | ~58.8ms |
 | High precision | `SPL07_4HZ`, `SPL07_64SAMPLES` | `SPL07_4HZ`, `SPL07_1SAMPLE` | ~432ms |
 
-
+---
 
 ## SPL07_003 Class Functions
 Below are functions of the `SPL07_003` class:

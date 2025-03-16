@@ -338,7 +338,7 @@ void SPL07_003::setPressureOffset(double offset) {
 
 /*
    Sets the pressure offset value that gets applied during
-   temperature calculation. Offset is in degrees Celcius.
+   temperature calculation. Offset is in degrees Celsius.
    Intended for calibration.
 */
 void SPL07_003::setTemperatureOffset(double offset) {
@@ -377,7 +377,7 @@ double SPL07_003::readPressure() {
 /*
    Fetches & converts the latest temperature reading.
 
-   Returns value in degrees Celcius
+   Returns value in degrees Celsius
 */
 double SPL07_003::readTemperature() {
   // Algorithm based on datasheet 4.6.2

@@ -13,13 +13,12 @@ Note: While the library was designed for the **SPL07-003**, with minor modificat
 
 
 ## Features
-- Very simple to setup and use
 - Set sensor to idle, single, or continuous measurement modes
 - Configure measurement rates (1Hz - 200Hz) and oversampling rates (1x - 128x) for both the pressure and temperature sensors
 - Read the most recent pressure or temperature readings with a single function call
 - Can apply a linear offset to pressure / temperature measurements
 - Configure interrupt pin function and polarity
-- Query the interrupt state without a hardware EXINT connection
+- Query the interrupt register to find what triggered any interrupts
 - Can accept a custom TwoWire object for unique I2C setups
 - Can accept a custom I2C address and `SENSOR_ID` for use with other compatible sensors
 
