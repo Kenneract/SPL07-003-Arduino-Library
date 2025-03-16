@@ -1,0 +1,31 @@
+#### Classes (KEYWORD1) ####
+SPL07_003	KEYWORD1
+
+
+#### Functions (KEYWORD2) ####
+setMode	KEYWORD2
+setPressureConfig	KEYWORD2
+setTemperatureConfig	KEYWORD2
+setTemperatureSource	KEYWORD2
+setInterruptActiveHigh	KEYWORD2
+configureInterrupt	KEYWORD2
+getInterruptStatus	KEYWORD2
+pressureAvailable	KEYWORD2
+temperatureAvailable	KEYWORD2
+setPressureOffset	KEYWORD2
+setTemperatureOffset	KEYWORD2
+reset	KEYWORD2
+begin	KEYWORD2
+readPressure	KEYWORD2
+readTemperature	KEYWORD2
+
+
+#### Constants (LITERAL1) ####
+SPL07_Measure_Rates	LITERAL1
+SPL07_Oversample_Rates	LITERAL1
+SPL07_Modes	LITERAL1
+SPL07_Interrupt_Options	LITERAL1
+SPL07_Temperature_Source	LITERAL1
+SPL07_ADDR_DEF	LITERAL1
+SPL07_ADDR_ALT	LITERAL1
+SPL07_EXPECTED_ID	LITERAL1
