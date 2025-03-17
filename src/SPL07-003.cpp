@@ -367,9 +367,9 @@ double SPL07_003::readPressure() {
   double tRawSC = tRaw / (double)kT;
 
   // Calculate compensated measurement result
-  double pComp = _c00 + _c10*pRawSC + _c20*pRawSC + _c30*pRawSC + _c40*pRawSC
-          + tRawSC*( _c01 + _c11*pRawSC + _c21*pRawSC + _c31*pRawSC)
-          + _presOffset;
+  double pComp = _c00 + pRawSC*(_c10 + pRawSC*(_c20 + pRawSC*(_c30 + _c40*pRawSC)))
+                + tRawSC*(_c01 + pRawSC*(_c11 + pRawSC*(_c21 + _c31*pRawSC)))
+                + _presOffset;
   return pComp;
 }//readPressure()
 
