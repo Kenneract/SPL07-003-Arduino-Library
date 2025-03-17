@@ -23,7 +23,7 @@ SPL07_003::~SPL07_003() {
 */
 uint8_t SPL07_003::_isolateBit(uint32_t val, uint8_t index) {
   // Generate mask to isolate bit at index
-  uint32_t mask = 0b1 << index;
+  uint32_t mask = (uint32_t)1 << index;
   // Return value of bit at index
   return uint8_t(val & mask);
 }//_isolateBit()
