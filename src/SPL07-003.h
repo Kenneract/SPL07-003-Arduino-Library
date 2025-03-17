@@ -1,7 +1,7 @@
 // Author: Kennan / Kenneract
 // GitHub: https://github.com/Kenneract/SPL07-003-Arduino-Library
 // Created: Mar.12.2025
-// Updated: Mar.15.2025, V1.0.0
+// Updated: Mar.17.2025, V1.1.0
 // Purpose: SPL07-003 Pressure+Temperature Sensor Arduino Library
 
 #ifndef SPL07_003_H
