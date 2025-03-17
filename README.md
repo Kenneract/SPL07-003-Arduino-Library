@@ -1,7 +1,6 @@
 # SPL07-003 Arduino Library
 An Arduino library for interfacing with the SPL07-003 pressure & temperature sensor over I2C.
 
-
 <img src="docs/SPL07-003.jpg" width=350px>
 
 ## Introduction
@@ -33,17 +32,16 @@ Note: While the library was designed for the **SPL07-003**, with minor modificat
 Read the [docs.md](docs/docs.md) file for documentation, and find examples in the [examples](examples) directory.
 
 
-
 ## Installation
 
-#### Through the Arduino Library Manager (pending)
+#### Through the Arduino Library Manager
 - Navigate to the Arduino Library Manager
 - Search for "SPL07-003"
 - Install latest version by Kenneract
 
 #### Manual Installation
-- Download this repository as a ZIP file
+- Download the [latest release](https://github.com/Kenneract/SPL07-003-Arduino-Library/releases/latest) source code as a ZIP
 - Navigate to your Arduino library directory
 	- On Windows this is often `.../documents/arduino/libraries/`
 - Create a folder named "SPL07-003" in your libraries folder
-- Extract the files inside the ZIP file into the "SPL07-003" folder
+- Extract the files from the ZIP file into the "SPL07-003" folder
